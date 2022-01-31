@@ -30,9 +30,7 @@ const Heading = styled.h1`
 
 text-align: center;
 `
-const Rank = styled.p`
-    text-align: center;
-`
+
 
 const Coin = ({name,icon,price,symbol,id,rank}) => {
     return (

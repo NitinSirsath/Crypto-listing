@@ -91,9 +91,7 @@ const Home = () => {
     const filtercoin = list.filter((coin) => {
         return coin.name.toLowerCase().includes(input.toLowerCase())
     })
-    const refreshPage = ()=>{
-        window.location.reload();
-     }
+   
     return (
         <div>
             <Headingcontainer>
